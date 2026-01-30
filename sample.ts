@@ -1,9 +1,10 @@
 
 
 
-let var1:string='welcome';
-console.log(var1);
-let a:number=10;
-console.log(a);
+import LoginPage,{Addition as a,sub,page} from "./Calc"
 
-
+a()
+sub()
+const login=new LoginPage()
+login.doLogin()
+console.log(page)
